@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Merriweather Sans", "Roboto", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -64,8 +64,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  color: #2E4053;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -113,13 +112,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .fh5co-top-social {
   width: 20%;
 }
+.avatar {
+  width: 60px;
+  height: 60px;
+}
+
 .fh5co-nav #fh5co-logo {
   font-size: 20px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Montserrat", Arial, sans-serif;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -192,7 +195,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Montserrat", Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -527,7 +529,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: "Montserrat", Arial, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -541,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .intro h2 {
-  font-size: 49px;
+  font-size: 38px;
   line-height: 55px;
   letter-spacing: 1px;
 }
@@ -589,7 +590,6 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .title {
@@ -1041,7 +1041,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1252,14 +1251,12 @@ blockquote {
   border-left: none;
 }
 blockquote p {
-  font-family: "Georgia", Times;
   font-style: italic;
   font-size: 20px;
   line-height: 1.5;
   color: #666666;
 }
 blockquote .person {
-  font-family: "Montserrat", Arial, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
